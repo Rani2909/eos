@@ -175,6 +175,7 @@ int main(void)
     eos_free(a);
     eos_free(c);
     eos_free(d);
+    eos_free(zero);
     eos_free(r2);
 
     eos_heap_stats(&stats);
